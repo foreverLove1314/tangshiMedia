@@ -1,0 +1,136 @@
+body,div,ul,li,p,input{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body{
+	font: "微软雅黑" 62.5%;
+}
+li{
+	list-style-type: none;
+}
+a{
+	text-decoration: none!important;
+}
+img{
+	border: none;
+}
+/*主体样式*/
+.caseLink{
+	padding-top: 20px;
+	padding-bottom: 90px;
+}
+.caseLink a{
+	font-size: 13px;
+	color: #1f1f1f;
+}
+.caseLink a.caseA{
+	color: #11619c;
+	
+}
+.anliText{
+	font-size: 27px;
+	padding-bottom: 32px;
+}
+.caseShow{
+	padding-bottom: 75px;
+}
+.caseShow ul li{
+	width: 16%;
+	float: left;
+	margin-right: 70px;
+	text-align: center;
+}
+.caseShow ul li.liLast{
+	margin-right: 0;
+}
+.caseShow a{
+	font-size: 20px;
+	color: #000000;
+	display: block;
+	padding: 20px 0;
+	margin-bottom: 25px;
+	border: 1px solid #c6c6c6;
+	border-radius: 20px;
+}
+.caseShow a:focus{
+	background-color: #ebeced;
+}
+.casaWeb{
+	padding-bottom: 35px;
+}
+.casaWeb:before,.casaWeb:after{
+	content: "";
+	display: block;
+	clear: both;
+}
+.casaWeb ul li{
+	float: left;
+	margin-right: 80px;
+	overflow: hidden;
+	margin-bottom: 20px;
+}
+.casaWeb ul li:nth-child(3n){
+	margin-right: 0;
+}
+.casaWeb ul li img:hover{
+	transform: scale(1.2);
+	transition: all .5s;
+}
+.casaWeb ul li.lastLi{
+	margin-right: 0;
+}
+.pageChange{
+	padding-top: 35px;
+	padding-bottom: 55px;
+	text-align: center;
+}
+.pageChange input{
+	padding: 10px 15px;
+	background-color: #FFFFFF;
+	border: 1px solid #1f6aa2;
+	margin: 0 15px;
+}
+.pageChange span{
+	padding: 10px;
+	border: 1px solid #1f6aa2;
+	margin: 0 10px;
+}
+@media only screen and (min-width: 993px) and (max-width: 1200px) {
+	.casaWeb ul li{
+		width: 30%;
+		margin: 0 10px;
+	}
+}
+/*ipad*/
+@media only screen and (min-width: 768px) and (max-width: 992px) {
+	.casaWeb ul li{
+		width: 30%;
+		margin: 0 10px;
+	}
+}
+/*phone*/
+@media only screen and (max-width:767px ) {
+	.anliText{
+		font-size: 17px;
+	}
+	.caseShow ul li{
+		width: 40%;
+		margin: 0 12px;
+	}
+	.casaWeb ul li{
+		width: 30%;
+		margin: 10px 5px;
+	}
+	.caseShow ul li a{
+		font-size: 15px;
+		padding: 5px 0;
+	}
+	.pageChange input{
+		padding: 10px 0;
+		margin: 0 5px;
+	}
+	.pageChange span{
+		margin: 0 5px;
+	}
+}

@@ -1,0 +1,91 @@
+body,div,ul,li,p,input{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body{
+	font: "微软雅黑" 62.5%;
+}
+li{
+	list-style-type: none;
+}
+a{
+	text-decoration: none!important;
+}
+img{
+	border: none;
+}
+/*主体内容*/
+.fwText{
+	
+	padding-top: 20px;
+}
+.fwText a{
+	font-size: 14px;
+	color: #1f1f1f;
+}
+.fwText a.serv{
+	color: #11619c;
+}
+.gongg{
+	font-size: 26px;
+	text-align: center;
+	color: #000000;
+	font-weight: bold;
+	padding-top: 100px;
+}
+.pub{
+	font-size: 12px;
+	text-align: center;
+	color: #1f1f1f;
+	padding-bottom: 60px;
+}
+.pWeb{
+	font-size: 18px;
+	line-height: 26px;
+	font-weight: bold;
+}
+.pText{
+	padding-bottom: 54px;
+}
+.pText p{
+	font-size: 12px;
+	line-height: 26px;
+}
+.za{
+	font-size: 19px;
+	font-weight: bold;
+	padding: 0 10px;
+	display: inline-block;
+	border: 1px solid #989898;
+	border-radius: 5px;
+}
+.serBox{
+	text-align: center;
+	padding-bottom: 70px;
+}
+.serBox img{
+	margin: 0 auto;
+}
+/*ipad pro*/
+@media only screen and (min-width:993px ) and (max-width:1200px) {
+	.za{
+		font-size: 17px;
+	}
+}
+/*phone*/
+@media only screen and (max-width:767px ) {
+	.pWeb{
+		text-align: center;
+	}
+	.pText p{
+		text-align: center;
+	}
+	.za{
+		text-align: center;
+		display: block;
+		margin: 0 auto;
+	}
+}
+
+

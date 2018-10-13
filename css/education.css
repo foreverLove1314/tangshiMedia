@@ -1,0 +1,72 @@
+body,div,ul,li,p,input{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body{
+	font: "微软雅黑" 62.5%;
+}
+li{
+	list-style-type: none;
+}
+a{
+	text-decoration: none!important;
+}
+img{
+	border: none;
+}
+/*主体样式*/
+.energy_content{
+	height: auto;
+	padding-bottom: 100px;
+}
+.energy_content:before,.energy_content:after{
+	content: "";
+	display: block;
+	clear: both;
+}
+.energyLink{
+	padding-top: 20px;
+}
+.energyLink a{
+	font-size: 16px;
+	color: #1f1f1f;
+}
+.energyLink a.jieneng{
+	color: #11619c;
+}
+.jiangyin{
+	padding-top: 75px;
+	padding-bottom: 38px;
+}
+.jiangyin p{
+	font-size: 20px;
+	line-height: 30px;
+}
+.jiangyin span{
+	font-size: 18px;
+	color: #6c6c6c;
+}
+.anliImg{
+	padding-bottom: 5px;
+}
+.anliMore{
+	display: inline-block;
+	padding: 0 35px;
+	border: 1px solid #cecece;
+	float: right;
+	margin-right: 210px;
+	}
+@media only screen and (max-width:767px ) {
+	.jiangyin p{
+		
+		font-size: 16px;
+	}
+	.jiangyin span{
+		
+		font-size: 14px;
+	}
+	.anliMore{
+		margin: 0 auto;
+	}
+}

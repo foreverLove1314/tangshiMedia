@@ -1,0 +1,543 @@
+body,div,ul,li,p,input{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body{
+	font: "微软雅黑" 62.5%;
+}
+li{
+	list-style-type: none;
+}
+a{
+	text-decoration: none!important;
+}
+img{
+	border: none;
+}
+/*首页头部*/
+.header{
+	width: 100%;
+	height: 94px;
+	background-color: #11619c;
+	position: fixed;
+	top: 0;
+	z-index: 999;
+	
+}
+.header:before,.header:after{
+	content: "";
+	display: block;
+	clear: both;
+}
+.logoImg{
+	float: left;
+}
+.navUl{
+	float: left;
+	line-height: 94px;
+}
+.navUl li{
+	float: left;
+}
+.navUl li a{
+	padding: 0 15px;
+	color: #FFFFFF;
+}
+.patop{
+	padding: 25px 0;	
+}
+.sBox{
+	height: 32px;
+	position: relative;
+}
+.sBox i{
+	width: 30px;
+	height: 100%;
+	display: inline-block;
+	background: url(../img/searchLogo.png) no-repeat center;
+	position: absolute;
+	top: 0;
+	right: 0;
+}
+.sInput{
+	width: 100%;
+	height: 100%;
+	line-height: 30px;
+	border: 1px solid #FFFFFF;
+	border-radius: 10px;
+	outline: none;
+	padding: 0 20px 0 10px;
+}
+.jiaodian li{
+	margin: 0 10px;
+}
+.item img{
+	width: 32%;
+	display: inline-block;
+	margin: 0 auto;
+}
+.bannerBox{
+	width: 100%;
+	height: auto;
+	background-color: #4f85bb;
+	padding-top: 94px;
+}
+.bannerBox a.carousel-control{
+	background-color: #4f85bb;
+}
+.bannerBox a.carousel-control:hover,.bannerBox a.carousel-control:focus{
+	opacity: 1;
+	background-color: #4f85bb;
+}
+.bText{
+	font-size: 40px;
+	color: #FFFFFF;
+	text-align: center;
+	padding: 70px 0 35px 0;
+}
+
+.anli{
+	font-size: 25px;
+	color: #000000;
+	text-align: center;
+	line-height: 66px;
+}
+.anli em{
+	font-size: 15px;
+	color: #000000;
+	font-style: normal;
+	font-weight: bold;
+}
+.caseBox{
+	width: 100%;
+	height: 643px;
+	
+}
+.show{
+	font-size: 13px;
+	color: #000000;
+	text-align: center;
+	padding-bottom: 20px;
+}
+.showBox{
+	width: 100%;
+	height: auto;
+	position: relative;
+}
+
+.showBox ul li{
+	width: 17%;
+	height: 355px;
+	position: absolute;
+	text-align: center;
+	/*overflow: hidden;*/
+}
+.showBox ul li img:hover{
+	transform: scale(1.1);
+	transition: all .5s;
+}
+.showBox ul li img{
+	display: inline-block;
+	width: 100%;
+	height: auto;
+}
+.showBox ul li.li1{
+	left: 20%;
+}
+.showBox ul li.li2{
+	left: 35%;
+}
+.showBox ul li.li3{
+	left: 50%;
+}
+.showBox ul li.li4{
+	left: 65%;
+}
+.showLink{
+	font-size: 14px;
+	color: #145a85;
+	font-weight: bold;
+	padding-top: 8px;
+	padding-bottom: 4px;
+	display: block;
+}
+.showText{
+	font-size: 12px;
+	display: block;
+	color: #145a85;
+}
+.ourService{
+	width: 100%;
+	height: auto;
+	background-color: #386299;
+	padding-top: 106px;
+	padding-bottom: 80px;
+}
+.ourService:before,.ourService:after{
+	content: "";
+	display: block;
+	clear: both;
+}
+.ourText{
+	font-size: 30px;
+	color: #FFFFFF;
+	text-align: center;
+}
+.ourText em{
+	font-size: 20px;
+	font-style: normal;
+}
+.ourContent{
+	font-size: 15px;
+	color: #FFFFFF;
+	text-align: center;
+	padding-bottom: 18px;
+}
+.serviceBox{
+	width: 26%;
+	height: 368px;
+	background-color: #FFFFFF;
+	float: left;
+	padding: 38px 25px 0 25px;
+	margin: 0 40px;
+}
+.serviceBox img{
+	margin: 0 auto;
+	display: block;
+}
+.safety{
+	font-size: 18px;
+	color: #000000;
+	padding: 20px 0 17px 0;
+}
+.safetyText{
+	font-size: 13px;
+	color: #386299;
+	padding-bottom: 14px;
+}
+.ourLink{
+	text-align: center;
+}
+.ourLink a{
+	font-size: 13px;
+	color: #FFFFFF;
+	padding: 5px 6px;
+	background-color: #6cb1db;
+	text-align: center;
+	display: inline-block;
+	margin: 0 auto;
+}
+.ourAdvantage{
+	width: 100%;
+	height: auto;
+	padding: 110px 0 90px 0;
+}
+.myAdvantage{
+	font-size: 27px;
+	text-align: center;
+	color: #000000;
+}
+.myAdvantage em{
+	font-style: normal;
+	font-size: 12px;
+	font-weight: bold;
+}
+.youshi{
+	width: 100%;
+	height: auto;
+}
+.youshi ul li{
+	float: left;
+	margin:56px 30px;
+}
+.youshi ul li div{
+	height: 143px;
+	border: 1px solid #7e7e7e;
+	border-radius:20px;
+	margin-bottom: 30px;
+}
+.ys{
+	height: auto;
+	padding: 10px 50px;
+}
+.ys p{
+	text-align: center;
+}
+.ys p.fys{
+	font-size: 16px;
+	font-weight: bold;
+}
+.ys p.sys{
+	font-size: 76px;
+	font-weight: bold;
+}
+.ys1{
+	padding: 40px 15px;
+}
+.ys1 p{
+	font-size: 15px;
+	text-align: center;
+	color: #000000;
+	line-height: 22px;
+}
+.text20{
+	padding: 0 60px;
+}
+
+.text100{
+	padding:0 45px;
+}
+.text1000{
+	padding: 0 45px;
+}
+.hezuo{
+	padding: 108px 0 90px 0;
+	background-color: #284871;
+}
+.hezuoText{
+	font-size: 28px;
+	color: #FFFFFF;
+	text-align: center;
+	padding-bottom:90px;
+}
+.hezuoText em{
+	font-size: 15px;
+	font-style: normal;
+}
+.qiyeImg{
+	width: 100%;
+	height: auto;
+}
+.qiyeImg:before,.qiyeImg:after{
+	content: "";
+	display: block;
+	clear: both;
+}
+.qiyeImg li{
+	width: 14%;
+	float: left;
+	margin: 0 30px;	
+}
+.qiyeImg li a{
+	display: block;
+	margin-bottom: 50px;
+}
+.aboutCompany{
+	width: 100%;
+	padding: 114px 0 90px 0;
+}
+.aboutP{
+	font-size: 30px;
+	text-align: center;
+	color: #000000;
+	padding-bottom: 90px;;
+}
+.aboutP em{
+	font-size: 12px;
+	font-style: normal;
+}
+.aboutUs{
+	margin: 0 70px;
+	float: left;
+}
+.aboutUs span{
+	font-size: 17px;
+	color: #000000;
+	font-weight: bold;
+	display: block;
+	line-height: 36px;
+}
+.aboutUs a{
+	font-size: 12px;
+	color: #000000;
+	display: block;
+	line-height: 27px;
+}
+/*底部*/
+.footer{
+	width: 100%;
+	line-height: 73px;
+	background-color: #132d40;
+}
+.footer span{
+	font-size: 12px;
+	color: #FFFFFF;
+	
+}
+/*ipad pro*/
+@media only screen and (min-width: 993px) and (max-width: 1200px) {
+	.serviceBox{
+		width: 24%;
+	}
+	.youshi ul li{
+		margin: 56px 8px;
+	}
+	.qiyeImg li{
+		margin: 0 27px;
+	}
+	.aboutUs{
+		margin: 0 55px;
+	}
+	.showBox ul li{
+		width: 25%;
+	}
+	.showBox ul li.li1{
+		left: 15%;
+	}
+	.showBox ul li.li2{
+		left: 30%;
+	}
+}
+/*ipad*/
+@media only screen and (min-width: 768px) and (max-width: 992px) {
+	.bText{
+		font-size: 20px;
+	}
+	.serviceBox{
+		margin: 0 22px;
+		padding: ;
+	}
+	.youshi ul li{
+		width: 30%;
+		margin: 20px 60px;
+	}
+	.ys p{
+		text-align: center;
+		
+	}
+	.text1000{
+		padding: 0 20px;
+	}
+	.qiyeImg li{
+		margin: 0 20px;
+	}
+	.aboutUs{
+		margin: 0 35px;
+	}
+}
+/*phone*/
+@media only screen and (max-width:767px ) {
+	.header{
+		height: 60px;
+		line-height: 60px;
+	}
+	.bannerBox{
+		padding-top: 60px;
+	}
+	.bText{
+		font-size: 15px;
+	}
+	.item img{
+		width: 40%;
+	}
+	.showBox{
+		padding-top: 20px;
+	}
+	.indexLogo{
+		padding: 0;
+	}
+	.hCenter ul{
+		
+		padding-left: 0;
+		
+	}
+	.hCenter ul li{
+		padding: 0 2px;
+	}
+	.searchBox{
+		width: 10%;
+		top: 25%;
+		right: 0;
+		margin-top: 0;
+	}
+	#sInput{
+		padding: 0;
+	}
+	.youshi ul li{
+		width: 30%;
+		margin: 20px 60px;
+	}
+	.ys p{
+		text-align: center;
+	}
+	.showBox ul li{
+		width: 20%;
+	}
+	.showBox ul li.li1{
+		left: 3%;
+	}
+	.showBox ul li.li2{
+		left: 26%;
+	}
+	.showBox ul li.li3{
+		left: 50%;
+	}
+	.showBox ul li.li4{
+		left: 75%;
+	}
+	.caseBox{
+		height: 420px;
+	}
+	.ourText{
+		font-size: 20px;
+		padding-bottom: 10px;
+	}
+	.ourContent{
+		font-size: 12px;
+	}
+	.serviceBox{
+		float: none;
+		width: 70%;
+		height: 350px;
+		margin: 20px auto;
+	}
+	.ourAdvantage{
+		padding: 20px 0 90px 0;
+	}
+	.youshi ul li{
+		width: 60%;
+		float: none;
+		margin: 10px auto;
+	}
+	.youshi ul li div{
+		height: 90px;
+		margin-bottom: 10px;
+	}
+	.ys p.sys{
+		font-size: 30px;
+	}
+	.ys1{
+		padding: 10px 15px;
+	}
+	.hezuo{
+		padding: 35px 0 55px 0;
+	}
+	.qiyeImg li{
+		width: 15%;
+		margin: 0 6px;
+	}
+	.qiyeImg li a{
+		margin-bottom: 20px;
+	}
+	.hezuoText{
+		padding-bottom: 20px;
+	}
+	.aboutCompany{
+		padding: 15px 0 0 0;
+	}
+	.aboutP{
+		padding-bottom: 10px;
+	}
+	.aboutUs{
+		width: 30%;
+		margin: 2px 4px;
+		height: 160px;
+	}
+	.footer{
+		line-height: 20px;
+	}
+	.footer span{
+		display: block;
+	}
+}

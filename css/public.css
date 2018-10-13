@@ -1,0 +1,222 @@
+body,div,ul,li,p,input{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body{
+	font: "微软雅黑" 62.5%;
+}
+li{
+	list-style-type: none;
+}
+a{
+	text-decoration: none!important;
+}
+img{
+	border: none;
+}
+/*头部*/
+/*首页头部*/
+.header{
+	width: 100%;
+	height: 94px;
+	background-color: #11619c;
+	position: fixed;
+	top: 0;
+	z-index: 999;
+	
+}
+.header:before,.header:after{
+	content: "";
+	display: block;
+	clear: both;
+}
+.logoImg{
+	float: left;
+}
+.navUl{
+	float: left;
+	line-height: 94px;
+}
+.navUl li{
+	float: left;
+}
+.navUl li a{
+	padding: 0 15px;
+	color: #FFFFFF;
+}
+.patop{
+	padding: 25px 0;	
+}
+.sBox{
+	height: 32px;
+	position: relative;
+}
+.sBox i{
+	width: 30px;
+	height: 100%;
+	display: inline-block;
+	background: url(../img/searchLogo.png) no-repeat center;
+	position: absolute;
+	top: 0;
+	right: 0;
+}
+.sInput{
+	width: 100%;
+	height: 100%;
+	line-height: 30px;
+	border: 1px solid #FFFFFF;
+	border-radius: 10px;
+	outline: none;
+	padding: 0 20px 0 10px;
+}
+/*手机端头部*/
+.header2{
+	width: 100%;
+	height: 60px;
+	position: fixed;
+	background: #11619c;
+	z-index: 999;
+}
+/*pc底部*/
+/*底部*/
+.footer{
+	width: 100%;
+	line-height: 73px;
+	background-color: #132d40;
+}
+.footer span{
+	font-size: 12px;
+	color: #FFFFFF;
+	
+}
+/*手机端底部*/
+.ovhidden{
+	overflow: hidden;
+	height: 100%;
+}
+.footer2{
+	position:fixed;
+	bottom: 0;
+	width: 100%;
+	height: 40px;
+	background-color: #FFFFFF;
+	box-shadow: 0 0 1px 1px #999999;
+}
+.footer2>ul>li{
+	float: left;
+	width: 20%;
+	text-align: center;
+}
+.footer2>ul>li span{
+	font-size: 15px;
+	color: #666;
+	line-height: 40px;
+	
+}
+.LoginBox{
+	width: 100%;
+	height: 100%;
+	position: fixed;
+	background-color: #FFFFFF;
+	top: 0;
+	left: 0;
+	z-index: 999;
+	display: none;
+}
+#login,#register{
+	position: relative;
+	padding-top: 50px;
+	
+}
+
+.tishi,.tishi2{
+	top: 10px;
+	left: 10px;
+	color: firebrick;
+	position: absolute;
+}
+.userBox,.passwordBox,.phoneBox,.userBox1,.passwordBox1{
+	width: 80%;
+	height: 30px;
+	margin: 0 auto;
+	position: relative;
+	margin-bottom: 40px;
+}
+.userBox,.userBox1{
+	margin-bottom: 40px;
+}
+.userBox input,.passwordBox input,.phoneBox input,.userBox1 input,.passwordBox1 input{
+	width: 100%;
+	height: 100%;
+	padding-left: 25px;
+}
+.userBox i,.userBox1 i{
+	width: 24px;
+	height: 100%;
+	background: url(../img/login.png) no-repeat 0 32%;
+	display: block;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+.userBox i:focus{
+	background: url(../img/login.png) no-repeat 0 88%;
+}
+.passwordBox i,.passwordBox1 i{
+	width: 24px;
+	height: 100%;
+	background: url(../img/login.png) no-repeat 0 69%;
+	display: block;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+.passwordBox i:focus{
+	background: url(../img/login.png) no-repeat 0 50%;
+}
+.phoneBox{
+	margin-bottom: 40px;
+}
+.phoneBox i{
+	width: 24px;
+	height: 100%;
+	background: url(../img/login.png) no-repeat 0 -3%;
+	display: block;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+.passwordBox,.passwordBox1{
+	margin-bottom: 40px;
+}
+#denglu,#zhuce{
+	width: 80%;
+	height: 30px;
+	background-color: #5BC0DE;
+	margin: 0 auto;
+	border: none;
+	outline: none;
+	border-radius: 5px;
+	display: block;
+}
+.erweima{
+	width: 40%;
+	height: 40%;
+	border: 1px solid #000000;
+}
+.Bd{
+	width: 30%;
+	height: auto;
+	display: block;
+	margin: 0 auto;
+	padding-top: 20px;
+}
+.back{
+	font-size: 20px;
+	color: #000000;
+	float: right;
+	line-height: 44px;
+	padding-right: 10px;
+}
+/*手机端底部结束*/

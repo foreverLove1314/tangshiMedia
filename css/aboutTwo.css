@@ -1,0 +1,65 @@
+body,div,ul,li,p,input{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body{
+	font: "微软雅黑" 62.5%;
+}
+li{
+	list-style-type: none;
+}
+a{
+	text-decoration: none!important;
+}
+img{
+	border: none;
+}
+/*主体样式*/
+.aboutNav{
+	padding-top: 18px;
+	padding-bottom: 90px;
+}
+.aboutNav a{
+	font-size: 13px;
+	color: #1f1f1f;
+}
+.aboutNav a.aText{
+	color: #11619c;
+}
+.cTitle{
+	font-size: 24px;
+	line-height: 70px;
+	color: #000000;
+	font-weight: bold;
+}
+.cContent{
+	font-size: 12px;
+	line-height: 26px;
+	text-indent: 2em;
+	padding-bottom: 70px;
+}
+.scope p{
+	font-size: 12px;
+	line-height: 25px;
+}
+.pt220{
+	padding-bottom: 220px;
+}
+/*ipad*/
+@media only screen and (min-width: 768px) and (max-width: 992px) {
+	.pt220{
+	padding-bottom: 100px;
+}
+}
+/*phone*/
+@media only screen and (max-width:767px ) {
+	.pt220{
+		padding-bottom: 50px;
+	}
+	.scopeImg img{
+		float: none;
+		margin: 0 auto;
+		padding-top: 30px;
+	}
+}
